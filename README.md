@@ -30,7 +30,7 @@ $ npm install express --save
 # Creating the app
 Then create the app.js file or whatever you prefer naming it (default is index.js) and add in the following code
 
-```
+```javascript
 const express = require("express");
 const app = express();
 app.listen(3000, () => console.log("Server running on port 3000"));
